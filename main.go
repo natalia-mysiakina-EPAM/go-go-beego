@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/astaxie/beego"
-	_ "go-gobuild/routers"
+	_ "go-go-beego/routers"
 )
 
 func main() {

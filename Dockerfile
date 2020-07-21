@@ -6,4 +6,4 @@ WORKDIR /app
 ADD *.exe /app/
 EXPOSE 8080
 
-ENTRYPOINT ["go-gobuild"]
+ENTRYPOINT ["go-go-beego"]

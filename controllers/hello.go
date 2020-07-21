@@ -12,3 +12,7 @@ func (c *HelloController) Get() {
 	c.Data["json"] = "Hello, World!"
 	c.ServeJSON()
 }
+
+func getMessage() string {
+	return "Hello, World!"
+}

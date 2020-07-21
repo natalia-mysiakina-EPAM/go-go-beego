@@ -17,7 +17,7 @@
 package routers
 
 import (
-	"go-gobuild/controllers"
+	"go-go-beego/controllers"
 
 	"github.com/astaxie/beego"
 )

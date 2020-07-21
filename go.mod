@@ -1,4 +1,4 @@
-module go-gobuild
+module go-go-beego
 
 go 1.14
 
