@@ -1,9 +1,11 @@
 FROM golang:1.14
 
 RUN mkdir /app
+ADD entrypoint /app
 WORKDIR /app
 
-ADD *.exe /app/
 EXPOSE 8080
 
-ENTRYPOINT ["go-go-beego"]
+RUN chmod u+x /app/entrypoint
+
+ENTRYPOINT ["/app/entrypoint"]
