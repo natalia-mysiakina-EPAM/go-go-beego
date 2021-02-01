@@ -1,7 +1,9 @@
 FROM golang:1.14
 
 RUN mkdir /app
-ADD go-go-beego /app
+
+COPY . /app/go-go-beego
+
 WORKDIR /app
 
 EXPOSE 8080
