@@ -10,4 +10,4 @@ EXPOSE 8080
 
 RUN chmod u+x /app/go-go-beego
 
-ENTRYPOINT ["/app/go-go-beego"]
+ENTRYPOINT ["go", "run", "/app/go-go-beego/main.go"]
