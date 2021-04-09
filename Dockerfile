@@ -4,7 +4,7 @@ RUN mkdir /app
 
 COPY . /app/go-go-beego
 
-WORKDIR /app
+WORKDIR /app/go-go-beego
 
 EXPOSE 8080
 
